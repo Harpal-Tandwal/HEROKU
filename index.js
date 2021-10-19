@@ -2,6 +2,7 @@ const express= require('express');
 const app= express();
 
 app.on('/',(req, res)=>{
+    
    req.render("hello");
 })
 
