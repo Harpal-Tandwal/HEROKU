@@ -5,4 +5,6 @@ app.get('/',()=>{
     req.send("working");
 })
 
-app.listen(proesss.env.PORT ||3000);
+app.listen(process.env.PORT ||3000,()=>{
+    console.log("server on")
+});
